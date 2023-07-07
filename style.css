@@ -1,0 +1,95 @@
+body {
+  background-color: rgb(242, 232, 219);
+}
+
+h2 {
+  text-align: center;
+  font-size: x-large;
+  background: linear-gradient(to left,
+            /* red, */
+            violet,
+            indigo,
+            blue,
+            green,
+            yellow,
+            orange,
+            red);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+input {
+  width: 98%;
+  height: 40px;
+  font-size: 25px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border: 2px solid rgb(255, 230, 205);
+}
+
+#main{
+  display: flex;
+  flex-grow: 100%;
+
+
+}
+
+#clear {
+  width: 80px;
+  height: 43px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 2px;
+  text-align: center;
+  color: rgb(52, 167, 224);
+  border-top-right-radius: 20px;
+  border: 1px solid rgb(126, 165, 225);
+  background-color: rgb(248, 245, 247);
+}
+
+#clear:active {
+  color: rgb(250, 245, 250);
+  border-radius: 6px;
+}
+
+section {
+  text-align: center;
+  padding: 3px;
+}
+#section2{
+  margin-right: 90px;
+}
+#section3{
+  margin-right: 230px;
+}
+
+#section1 > button {
+  background-color: rgb(176, 193, 182);
+}
+
+#section2 > button {
+  background-color: rgb(148, 173, 213);
+  
+}
+#section3 > button {
+  background-color: rgb(176, 193, 182);
+}
+
+.btn {
+  text-align: center;
+  align-items: center;
+  font-size: 28px;
+  height: 55px; 
+  width: 85px;  
+
+  border-color: rgb(241, 242, 239);
+  /* border-top-color: rgb(228, 134, 134); */
+  /* border-left-color:rgb(134, 245, 134) ; */
+  /* border-right-color: rgb(247, 140, 90); */
+  /* border-bottom-color:yellow ; */
+}
+
+
+button#g , button#h {
+  background-color: rgb(245, 155, 210);
+}
